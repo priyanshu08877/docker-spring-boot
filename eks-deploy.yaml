@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: public.ecr.aws/n5y7g9k4/jenkins-repo:latest
+        image: public.ecr.aws/z5v4e8o6/myrepo:latest
         ports:
         - containerPort: 8085
 # service type loadbalancer       
@@ -35,3 +35,4 @@ spec:
   type: LoadBalancer
   selector:
     app: springboot-app
+
